@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="no" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title> Informasjonstryggleik </title>
+  <link rel="stylesheet" href="kap6.css">
+  <link rel="icon" href="bilde/keyboard.jpg">
+
+  <style>
+
+    main section img {
+        width: 500px;
+        height: 250px;
+
+      }
+      #img1 {
+        width: 650px;
+      }
+    @media screen and (max-width: 800px)
+    {
+      main section img {
+        width: 300px;
+        height: 150px;
+
+      }
+      #img1 {
+        width: 350px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <!-- OVERSKRIFT, NAVIGASJON. -->
+    <div id="banner"></div>
+    <section style="">
+      <article>
+        <a href="index.html"> Home </a>
+        <a href="side2.html"> Angrepsrisiko </a>
+        <a href="side3.html" style="color:gold"> |Informasjonstryggleik| </a>
+        <a href="side4.html"> Tryggleik og personvern</a>
+      </article>
+      <article>
+        <a href="side5.html"> Regelverk </a>
+        <a href="side6.html"> Chat</a>
+        <a href="side7.html">  </a>
+      </article>
+
+    </section>
+
+
+  </header>
+  <main>
+    <h1 style="color:gold">|Informasjonstryggleik|</h1>
+    <h2 style="color:ghostwhite"></h2>
+
+    <section>
+      <img id="img1" src="kap6bilde/modellering.png" alt="Eit bilde er delt opp i bildepunt eller pikslar. Dess fleire dess bedre ">
+      <img id="img2" src="bilde/cmykrgb.jpg" alt="Me bruker CMYK eller RGB - veridar til å framstilla farge">
+      <h2>Lagring og komprimering</h2>
+      <p>
+        I eit bilde bryt ein bildet opp i bitte små delar kalla pikslar eller bildepunkt. Dess fleire deler/ pikslar
+        dess
+        høgare kvaliteten på bildet,
+        men dette krev meir plass i minnet på datamaskina. Ei datamaskin treng berre tala og litt informasjon til å
+        vite
+        kordan eit bilde er dett opp.
+        Så lenge maskina veit kor mange punkt som skal vere vertikalt og horisontalt kan den å gjenskape bilde med ei
+        talrekke med 0 og 1.
+      </p>
+
+      <p>
+        I bilder er det ofte fargar og dei to mest vanlige måtane å beskriva fargar er å bruke RGB- verdiar eller
+        CMYK-verdiar. RGB står for Raud,Grøn og Blå mens CMYK står for Cyan, Magenta, Yellow og blacK.
+        Det mest vanlige er å bruke RGB- verdiar når det gjeld grafikk på skjerm.
+      </p>
+
+      <p>
+        For å lagre eller sende bilde må ein kanskje komprimere bildene. Det finnest to typer komprimering, tapsfri
+        kompresjon og desktruktiv kompresjon.
+        Tapsfri kompresjon å gjera fila mindre men likavel ha nok data til å gjenskapa fila så den er identisk med den
+        originale, og blir ofte brukt på illustrasjonar eller figurar.
+        Destruktiv komresjon forenklar biletet bassert på kunnskapen om kva som er nødvendig å ha med, blir brukt på
+        mediefiler som bilder.
+      </p>
+    </section>
+  </main>
+
+</body>
+
+</html>
